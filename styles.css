@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     display: flex;
@@ -31,25 +37,22 @@ button {
     padding: 8px 32px;
 }
 
-body,
-h1,
-h2,
-h4,
-p,
-ul,
-img {
-    margin: 0;
-    padding: 0;
-}
-
 img {
     width: 100%;
     height: auto;
 }
 
+.section {
+    width: 100%;
+}
+
+.fill {
+    width: 100%;
+    max-width: 1000px;
+}
+
 .hero-container {
     background-color: #1f2937;
-    width: 100%;
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -57,8 +60,6 @@ img {
 }
 
 .header {
-    width: 100%;
-    max-width: 1000px;
     height: 45px;
     display: flex;
     justify-content: space-between;
@@ -76,8 +77,6 @@ img {
 }
 
 .hero {
-    width: 100%;
-    max-width: 1000px;
     flex: 1;
     display: flex;
     align-items: center;
@@ -113,7 +112,6 @@ img {
 
 .content {
     background-color: #f9faf8;
-    width: 100%;
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -154,7 +152,6 @@ img {
 .quote-container {
     color: #1f2937;
     background-color: #e5e7eb;
-    width: 100%;
     min-height: 400px;
     display: flex;
     align-items: center;
@@ -177,7 +174,6 @@ img {
 
 .action-container {
     background-color: #f9faf8;
-    width: 100%;
     min-height: 350px;
     display: flex;
     align-items: center;
@@ -187,8 +183,6 @@ img {
 .action {
     background-color: #3882f6;
     min-height: 150px;
-    width: 100%;
-    max-width: 1000px;
     border-radius: 16px;
     display: flex;
     justify-content: space-around;
@@ -213,7 +207,6 @@ img {
 
 .footer {
     background-color: #1f2937;
-    width: 100%;
     min-height: 100px;
     color: #e5e7eb;
     display: flex;
@@ -222,8 +215,6 @@ img {
 }
 
 .footer p {
-    width: 100%;
-    max-width: 1000px;
     font-size: 18px;
     text-align: center;
 }
